@@ -8,3 +8,9 @@ jobs:
   allow_failures:
   - php: 7.4
     env: KEY=VALUE
+
+deploy:
+  provider: heroku
+  app: "test-php-vlad-1"
+  api_key:
+    secure: "e96833b7-69cb-4fb6-bfd3-653dccc91e79"    
