@@ -11,6 +11,5 @@ jobs:
 
 deploy:
   provider: heroku
-  app: "test-php-vlad-1"
-  api_key:
-    secure: "e96833b7-69cb-4fb6-bfd3-653dccc91e79"    
+  app: test-php-vlad-1
+  api_key: "e96833b7-69cb-4fb6-bfd3-653dccc91e79"    
