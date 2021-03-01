@@ -10,8 +10,7 @@ jobs:
 script: php index.php
 deploy:
   provider: heroku
-  api_key:
-    secure: ccgJ/6k+x5bfRMPYcIaXdW4uYfwq+3vBqf+upBFDQOnQQeH1A+dVWwTAx2sP1wcSSBAyyRI9aJ6/hOSzYaZ71ty0BRKlVK+22hKQfN99blszUA1LIlXFWcgeU+pf4oSWTPW4oltdZSoRF106tuR0AY439Qhb2WlIBjxJSYE1o/Zo/O9K6tRwOXhs0X82kBUJEussrhLRdddogvZ5+sKc3GY6FK3UM8uOwecIKoFupQyMEfYb5sg8QDjYjHIaHPQwb8VUcHF68yfMTQZF9D0rzMtdcMvvzO5/Cud2eXPzKc4YYVYKVdPC2+9pRTkiC8JM2gcrrZ1z/3ku3403hRxoMPu8AKPIMrmSkukJoew0AQC9FprS1RNBol5nu2qrgRIQTSH49bGNUUF6S5XB1caLlUw8tkH0SpzjPycXXawVMLaxRc0scIqA2Fw/3YsRf3XWQVMhhRH1NQTYn/uLtrxIrDk9Y45k3egqwHaNxmZqn+NUVa4bzyahbxazB/hnlr/oYV5xJkkGqAcjHFRPhyrKMmg90/lmyv3vnpkz3mY6+P61arloWEH9wne5RpjSoXdYwRiD+7sUl56fY2dbMcYnK1EVI72Ha23HpWl+r1n0m31G3aTSFKsqxKLdmQSxO+QFEXVR38u62bJT6Z9VrluDidH79+2loZ9nW6R/RdRvT9c=
+  api_key: 024a6233-b2d4-4818-8224-d4ff91f1af9f
   app: test-php-vlad-1
   on:
     repo: vladgaus/test-cicd
